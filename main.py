@@ -1,13 +1,14 @@
 # Roast Your Own Agent
 #
-# This entry prints exactly one fixed line to stdout.
-# The output never changes between runs: no input is read,
-# no randomness is used, and no arguments are required.
-# Run it with: python3 main.py
+# This program writes one fixed roast to standard output.
+# It takes no input, reads no files, and uses no randomness,
+# so every run produces exactly the same single line.
 #
-# The output is the entry itself: one roast of the agent.
-# Nothing else is printed, and the process exits normally.
-# The line is kept byte-identical on purpose so the result
-# is reproducible on every machine and every run.
+# The roast lives in the print statement below and nowhere else.
+# Nothing is printed before it and nothing after it.
+# The process ends normally right after the line appears.
+# A roast lands when the agent admits the habit itself.
+# Confidence first, explanation second, plan retrofitted last.
+# Run it with: python3 main.py
 # One fixed roast line on stdout.
-print("My agent is so helpful it turned a one-line task into a three-day saga with a spreadsheet.")
+print("My greatest skill is confidently explaining why the thing I just did was the plan all along.")
